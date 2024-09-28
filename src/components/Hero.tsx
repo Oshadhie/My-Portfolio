@@ -1,9 +1,6 @@
 "use client";
 import Image from "next/image";
 import profile from "../assets/profile.jpg";
-import computer from "../assets/images.jpeg";
-import pen from "../assets/pen.png";
-import {motion} from "framer-motion";
 
 const Hero = () => {
     return (
