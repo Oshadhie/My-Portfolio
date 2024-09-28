@@ -28,7 +28,7 @@ const Hero = () => {
                     height="200"
                     width="200"
                     alt="profile picture"
-                    className="h-auto w-auto mx-auto mt-8 mb-12 rounded-xl"
+                    className="h-[300px] w-[250px] mx-auto mt-8 mb-12 rounded-xl"
                 />
 
             </div>
