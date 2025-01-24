@@ -6,6 +6,7 @@ import group from "../assets/group.jpg";
 import restaurant from "../assets/moksha.png";
 import task from "../assets/task.png";
 import game from "../assets/game.png";
+import tasks from "../assets/Tasks.png";
 
 const projects = [
   {
@@ -35,6 +36,13 @@ const projects = [
     devStack: "Kotlin",
     git: "https://github.com/Oshadhie/Riding-Space-Ship",
     src: game,
+  },
+  {
+    title: "Task Manager Application",
+    desc: "Task Manager is a simple yet powerful task management web app designed to help users organize their daily tasks efficiently. With Task Manager, users can easily add, update, delete tasks, filter pending and completed tasks and search tasks. Task management is a snap with the app's clear and simple design.",
+    devStack: "Laravel, PHP, MYSQL",
+    git: "https://github.com/Oshadhie/Task-Manager",
+    src: tasks,
   },
 ];
 
@@ -67,7 +75,15 @@ const Portfolio = () => {
 
             {/* Image section */}
             <div className="flex justify-center items-center w-full md:w-1/2 order-2">
-              <Image src={project.src} alt={project.title} className="h-[350px] w-auto object-cover" />
+            <Image 
+              src={project.src} 
+              alt={project.title} 
+              className="rounded-lg"
+              layout="responsive"
+              width={700} 
+              height={500} 
+              objectFit="contain"
+            />
             </div>
           </motion.div>
         ))}

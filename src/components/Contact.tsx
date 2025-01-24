@@ -8,7 +8,7 @@ const MyContact = [
     },
     {
         icon: FaMailBulk,
-        desc:"Oshadhiindudunu@gmail.com"
+        desc:"oshadhiindudunu@gmail.com"
     },
     {
         icon: FaHome,

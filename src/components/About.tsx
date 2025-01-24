@@ -92,7 +92,7 @@ const About = () => {
               </h2>
               <p className="text-sm md:text-lg text-white/70 mt-2 text-center md:text-left">
                 JavaScript, Kotlin, Python, Java, HTML, CSS, PHP, SQL, C, R,
-                MERN Stack, React + Vite, Tailwind CSS, Eclipse, Android Studio,
+                MERN Stack, React + Vite, Tailwind CSS,Laravel, Eclipse, Android Studio,
                 Visual Studio, VS Code, Figma, Trello, Office 365, UML Design,
                 Database Design, Agile, UI/UX Design.
               </p>

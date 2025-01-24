@@ -8,9 +8,9 @@ const Footer = () => {
             <h1 className="text-2xl font-bold">I W O Indudunu</h1>
 
             <div className="flex space-x-6 mt-4">
-                <a href="#" className="hover:text-gray-300"><FaFacebook size={35}/></a>
-                <a href="#" className="hover:text-gray-300"><FaLinkedin size={35}/></a>
-                <a href="#" className="hover:text-gray-300"><FaGithub size={35}/></a>
+                <a href="https://www.facebook.com/share/15xUqCmiLx/?mibextid=wwXIfr" className="hover:text-gray-300"><FaFacebook size={35}/></a>
+                <a href="http://linkedin.com/in/oshadhie-indudunu-34656b2b5" className="hover:text-gray-300"><FaLinkedin size={35}/></a>
+                <a href="https://github.com/Oshadhie" className="hover:text-gray-300"><FaGithub size={35}/></a>
             </div>
         </div>
     )
